@@ -1,0 +1,1571 @@
+2019-09-22 22:34:05,418 INFO Starting AccountApplication on Shines-MacBook-Pro.local with PID 21596 (/Users/shine/Projects/java/myerp/account/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:34:05,429 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:34:07,241 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:34:07,547 INFO Finished Spring Data repository scanning in 274ms. Found 1 repository interfaces.
+
+2019-09-22 22:34:08,275 INFO Bean 'config' of type [com.example.account.Config$$EnhancerBySpringCGLIB$$d177b497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:08,520 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:34:08,536 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:34:08,710 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:08,717 INFO Transaction Manager Client is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:08,740 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:34:08,754 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:08,756 INFO Resource Manager is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:08,756 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:34:08,956 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92fc045e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:09,798 INFO Tomcat initialized with port(s): 9001 (http)
+
+2019-09-22 22:34:09,843 INFO Initializing ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:34:09,879 INFO Starting service [Tomcat]
+
+2019-09-22 22:34:09,880 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:34:10,133 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:34:10,133 INFO Root WebApplicationContext: initialization completed in 4592 ms
+
+2019-09-22 22:34:10,782 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:34:11,643 INFO {dataSource-1} inited
+
+2019-09-22 22:34:11,674 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:34:11,677 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:34:11,685 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:11,686 INFO RM will register :jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:34:11,694 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_account', applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:11,991 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:34:11,993 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:34:12,098 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:34:12,235 INFO register RM success. server version:0.7.1,channel:[id: 0xec460f41, L:/127.0.0.1:63616 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:12,237 INFO register success, cost 248 ms, version:0.7.1,role:RMROLE,channel:[id: 0xec460f41, L:/127.0.0.1:63616 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:12,437 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:34:12,438 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:34:12,539 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:34:12,686 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:34:12,689 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:34:13,258 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:34:13,717 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:13,736 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:13,781 INFO register success, cost 37 ms, version:0.7.1,role:TMROLE,channel:[id: 0xdc6f0201, L:/127.0.0.1:63618 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:14,009 INFO Starting OrderApplication on Shines-MacBook-Pro.local with PID 21599 (/Users/shine/Projects/java/myerp/order/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:34:14,017 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:34:14,277 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:34:16,886 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:34:17,074 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:34:17,117 INFO Finished Spring Data repository scanning in 213ms. Found 1 repository interfaces.
+
+2019-09-22 22:34:17,958 INFO Bean 'config' of type [com.example.order.Config$$EnhancerBySpringCGLIB$$4bbda879] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:18,537 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:34:18,552 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:34:18,798 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:18,803 INFO Transaction Manager Client is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:18,829 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:34:18,840 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:18,842 INFO Resource Manager is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:18,842 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:34:19,423 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:34:19,501 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c011f61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:19,724 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:34:20,758 INFO Starting ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:34:20,794 INFO Tomcat started on port(s): 9001 (http) with context path ''
+
+2019-09-22 22:34:20,802 INFO Started AccountApplication in 16.225 seconds (JVM running for 18.089)
+
+2019-09-22 22:34:20,883 INFO Tomcat initialized with port(s): 9003 (http)
+
+2019-09-22 22:34:20,925 INFO Initializing ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:34:20,944 INFO Starting service [Tomcat]
+
+2019-09-22 22:34:20,944 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:34:21,240 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:34:21,240 INFO Root WebApplicationContext: initialization completed in 6994 ms
+
+2019-09-22 22:34:21,811 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:34:22,701 INFO {dataSource-1} inited
+
+2019-09-22 22:34:22,764 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:34:22,768 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:34:22,779 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:22,780 INFO RM will register :jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:34:22,787 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_order', applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:23,041 INFO Starting StorageApplication on Shines-MacBook-Pro.local with PID 21601 (/Users/shine/Projects/java/myerp/storage/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:34:23,047 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:34:23,148 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:34:23,149 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:34:23,195 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:34:23,263 INFO register RM success. server version:0.7.1,channel:[id: 0x6848c125, L:/127.0.0.1:63636 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:23,264 INFO register success, cost 117 ms, version:0.7.1,role:RMROLE,channel:[id: 0x6848c125, L:/127.0.0.1:63636 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:23,505 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:34:23,506 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:34:23,676 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:34:23,805 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:23,806 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:23,862 INFO register success, cost 28 ms, version:0.7.1,role:TMROLE,channel:[id: 0x2f8cf55c, L:/127.0.0.1:63637 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:23,956 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:34:23,965 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:34:24,435 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:34:24,872 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:34:25,075 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:34:25,262 INFO Finished Spring Data repository scanning in 161ms. Found 1 repository interfaces.
+
+2019-09-22 22:34:25,952 INFO Bean 'config' of type [com.example.storage.Config$$EnhancerBySpringCGLIB$$5efd2605] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:26,137 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:34:26,145 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:34:26,258 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:26,261 INFO Transaction Manager Client is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:26,272 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:34:26,279 INFO RpcClientBootstrap has started
+
+2019-09-22 22:34:26,280 INFO Resource Manager is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:34:26,280 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:34:26,391 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:34:26,392 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c0bed9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:34:26,999 INFO Tomcat initialized with port(s): 9002 (http)
+
+2019-09-22 22:34:27,021 INFO Initializing ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:34:27,036 INFO Starting service [Tomcat]
+
+2019-09-22 22:34:27,037 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:34:27,050 INFO Bean[com.example.order.service.impl.OrderServiceImpl] with name [orderServiceImpl] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+
+2019-09-22 22:34:27,186 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:34:27,186 INFO Root WebApplicationContext: initialization completed in 3961 ms
+
+2019-09-22 22:34:27,402 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:34:27,504 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:34:27,521 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:34:27,750 INFO Starting ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:34:27,773 INFO Tomcat started on port(s): 9003 (http) with context path ''
+
+2019-09-22 22:34:27,779 INFO Started OrderApplication in 15.145 seconds (JVM running for 17.487)
+
+2019-09-22 22:34:27,850 INFO {dataSource-1} inited
+
+2019-09-22 22:34:27,860 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:34:27,862 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:34:27,865 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:27,866 INFO RM will register :jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:34:27,868 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_storage', applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:27,986 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:34:27,987 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:34:28,015 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:34:28,050 INFO register RM success. server version:0.7.1,channel:[id: 0x8612dc20, L:/127.0.0.1:63645 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:28,050 INFO register success, cost 66 ms, version:0.7.1,role:RMROLE,channel:[id: 0x8612dc20, L:/127.0.0.1:63645 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:28,143 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:34:28,144 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:34:28,185 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:34:28,244 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:34:28,246 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:34:28,509 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:34:28,660 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:34:30,262 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:34:31,166 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:34:31,211 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:34:31,263 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:34:31,264 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:34:31,285 INFO register success, cost 13 ms, version:0.7.1,role:TMROLE,channel:[id: 0x1067a1e4, L:/127.0.0.1:63646 - R:/127.0.0.1:8091]
+
+2019-09-22 22:34:31,431 INFO Starting ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:34:31,448 INFO Tomcat started on port(s): 9002 (http) with context path ''
+
+2019-09-22 22:34:31,452 INFO Started StorageApplication in 9.55 seconds (JVM running for 12.252)
+
+2019-09-22 22:34:44,042 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:34:44,042 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:34:44,103 INFO Completed initialization in 60 ms
+
+2019-09-22 22:34:44,173 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:34:45,248 INFO load TransactionManager[null] extension by class[io.seata.tm.DefaultTransactionManager]
+
+2019-09-22 22:34:45,252 INFO TransactionManager Singleton io.seata.tm.DefaultTransactionManager@76e28b88
+
+2019-09-22 22:34:45,260 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:34:45,276 INFO Begin new global transaction [172.17.0.3:8091:2022782989]
+
+2019-09-22 22:34:46,340 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:34:46,349 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:34:46,384 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:34:46,395 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:34:47,129 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:34:47,130 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:34:47,160 INFO Completed initialization in 30 ms
+
+2019-09-22 22:34:47,223 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:34:49,195 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:34:49,243 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:34:49,253 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:34:49,395 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:34:49,410 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:34:54,907 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:34:54,909 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:34:55,016 INFO Completed initialization in 107 ms
+
+2019-09-22 22:34:55,172 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:34:55,663 INFO HHH000397: Using ASTQueryTranslatorFactory
+
+2019-09-22 22:35:00,285 INFO onMessage:xid=172.17.0.3:8091:2022782989,branchId=2022782991,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_account,applicationData=null
+
+2019-09-22 22:35:00,300 INFO Branch Rollbacking: 172.17.0.3:8091:2022782989 2022782991 jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:35:00,511 WARN Could not found property transaction.undo.data.validation, try to use default value instead.
+
+2019-09-22 22:35:00,594 INFO xid 172.17.0.3:8091:2022782989 branch 2022782991, undo_log deleted with GlobalFinished
+
+2019-09-22 22:35:00,596 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:35:00,605 INFO onMessage:xid=172.17.0.3:8091:2022782989,branchId=2022782990,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_order,applicationData=null
+
+2019-09-22 22:35:00,607 INFO Branch Rollbacking: 172.17.0.3:8091:2022782989 2022782990 jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:35:00,662 WARN Could not found property transaction.undo.data.validation, try to use default value instead.
+
+2019-09-22 22:35:00,680 INFO xid 172.17.0.3:8091:2022782989 branch 2022782990, undo_log deleted with GlobalFinished
+
+2019-09-22 22:35:00,687 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:35:00,699 INFO [172.17.0.3:8091:2022782989] rollback status:Rollbacked
+
+2019-09-22 22:35:00,717 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: 余额或库存不足!] with root cause
+
+java.lang.Exception: 余额或库存不足!
+	at com.example.order.service.impl.OrderServiceImpl.place(OrderServiceImpl.java:39)
+	at com.example.order.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$592c2beb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor$1.execute(GlobalTransactionalInterceptor.java:104)
+	at io.seata.tm.api.TransactionalTemplate.execute(TransactionalTemplate.java:64)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.handleGlobalTransaction(GlobalTransactionalInterceptor.java:101)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.invoke(GlobalTransactionalInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.order.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$c6ca1ca2.place(<generated>)
+	at com.example.order.controller.OrderController.place(OrderController.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 22:36:56,234 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:36:56,237 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:36:56,247 INFO {dataSource-1} closed
+
+2019-09-22 22:36:56,249 INFO channel inactive: [id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,250 INFO return to pool, rm channel:[id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,250 INFO channel valid false,channel:[id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,250 INFO will destroy channel:[id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,250 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:36:56,251 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xdc6f0201, L:/127.0.0.1:63618 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:36:56,288 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:36:56,289 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:36:56,298 INFO {dataSource-1} closed
+
+2019-09-22 22:36:56,300 INFO channel inactive: [id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,301 INFO return to pool, rm channel:[id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,301 INFO channel valid false,channel:[id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,301 INFO will destroy channel:[id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,302 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:36:56,302 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0x2f8cf55c, L:/127.0.0.1:63637 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:36:56,343 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:36:56,345 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:36:56,360 INFO {dataSource-1} closed
+
+2019-09-22 22:36:56,364 INFO channel inactive: [id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,364 INFO return to pool, rm channel:[id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,365 INFO channel valid false,channel:[id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,365 INFO will destroy channel:[id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:36:56,366 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:36:56,366 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0x1067a1e4, L:/127.0.0.1:63646 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:37:49,512 INFO Starting AccountApplication on Shines-MacBook-Pro.local with PID 21620 (/Users/shine/Projects/java/myerp/account/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:37:49,518 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:37:51,201 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:37:51,357 INFO Finished Spring Data repository scanning in 138ms. Found 1 repository interfaces.
+
+2019-09-22 22:37:51,971 INFO Bean 'config' of type [com.example.account.Config$$EnhancerBySpringCGLIB$$77b69a81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:37:52,165 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:37:52,173 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:37:52,285 INFO RpcClientBootstrap has started
+
+2019-09-22 22:37:52,288 INFO Transaction Manager Client is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:37:52,303 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:37:52,316 INFO RpcClientBootstrap has started
+
+2019-09-22 22:37:52,320 INFO Resource Manager is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:37:52,320 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:37:52,499 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$393aea48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:37:52,992 INFO Tomcat initialized with port(s): 9001 (http)
+
+2019-09-22 22:37:53,019 INFO Initializing ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:37:53,031 INFO Starting service [Tomcat]
+
+2019-09-22 22:37:53,032 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:37:53,151 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:37:53,151 INFO Root WebApplicationContext: initialization completed in 3327 ms
+
+2019-09-22 22:37:53,517 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:37:53,997 INFO {dataSource-1} inited
+
+2019-09-22 22:37:54,015 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:37:54,019 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:37:54,025 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:37:54,040 INFO RM will register :jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:37:54,059 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_account', applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:37:54,310 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:37:54,311 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:37:54,359 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:37:54,426 INFO register RM success. server version:0.7.1,channel:[id: 0x43d3001e, L:/127.0.0.1:63692 - R:/127.0.0.1:8091]
+
+2019-09-22 22:37:54,427 INFO register success, cost 119 ms, version:0.7.1,role:RMROLE,channel:[id: 0x43d3001e, L:/127.0.0.1:63692 - R:/127.0.0.1:8091]
+
+2019-09-22 22:37:54,538 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:37:54,539 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:37:54,615 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:37:55,012 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:37:55,014 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:37:55,497 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:37:56,010 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:37:57,289 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:37:57,292 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:37:57,313 INFO register success, cost 10 ms, version:0.7.1,role:TMROLE,channel:[id: 0xc0da5dac, L:/127.0.0.1:63700 - R:/127.0.0.1:8091]
+
+2019-09-22 22:37:57,655 INFO Starting OrderApplication on Shines-MacBook-Pro.local with PID 21622 (/Users/shine/Projects/java/myerp/order/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:37:57,666 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:37:58,001 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:37:59,825 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:37:59,911 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:38:00,058 INFO Finished Spring Data repository scanning in 198ms. Found 1 repository interfaces.
+
+2019-09-22 22:38:00,060 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:38:00,641 INFO Starting ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:38:00,725 INFO Tomcat started on port(s): 9001 (http) with context path ''
+
+2019-09-22 22:38:00,731 INFO Started AccountApplication in 12.295 seconds (JVM running for 14.286)
+
+2019-09-22 22:38:00,925 INFO Bean 'config' of type [com.example.order.Config$$EnhancerBySpringCGLIB$$cd7dc501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:38:01,139 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:38:01,152 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:38:01,575 INFO RpcClientBootstrap has started
+
+2019-09-22 22:38:01,579 INFO Transaction Manager Client is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:38:01,592 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:38:01,600 INFO RpcClientBootstrap has started
+
+2019-09-22 22:38:01,601 INFO Resource Manager is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:38:01,602 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:38:01,772 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdc13be9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:38:02,367 INFO Tomcat initialized with port(s): 9003 (http)
+
+2019-09-22 22:38:02,401 INFO Initializing ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:38:02,422 INFO Starting service [Tomcat]
+
+2019-09-22 22:38:02,424 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:38:02,688 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:38:02,689 INFO Root WebApplicationContext: initialization completed in 4881 ms
+
+2019-09-22 22:38:03,322 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:38:04,162 INFO {dataSource-1} inited
+
+2019-09-22 22:38:04,181 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:38:04,191 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:38:04,206 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:38:04,206 INFO RM will register :jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:38:04,211 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_order', applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:38:04,395 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:38:04,397 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:38:04,461 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:38:04,529 INFO register RM success. server version:0.7.1,channel:[id: 0xddb4cdff, L:/127.0.0.1:63712 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:04,529 INFO register success, cost 138 ms, version:0.7.1,role:RMROLE,channel:[id: 0xddb4cdff, L:/127.0.0.1:63712 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:04,687 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:38:04,688 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:38:04,771 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:38:04,880 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:38:04,883 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:38:05,299 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:38:05,775 INFO Starting StorageApplication on Shines-MacBook-Pro.local with PID 21625 (/Users/shine/Projects/java/myerp/storage/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:38:05,785 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:38:05,805 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:38:06,578 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:38:06,579 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:38:06,597 INFO register success, cost 12 ms, version:0.7.1,role:TMROLE,channel:[id: 0xbc98b12b, L:/127.0.0.1:63715 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:07,092 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:38:07,175 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:38:07,194 INFO Finished Spring Data repository scanning in 86ms. Found 1 repository interfaces.
+
+2019-09-22 22:38:07,581 INFO Bean 'config' of type [com.example.storage.Config$$EnhancerBySpringCGLIB$$92ecb6e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:38:07,604 INFO Bean[com.example.order.service.impl.OrderServiceImpl] with name [orderServiceImpl] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+
+2019-09-22 22:38:07,742 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:38:07,750 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:38:07,846 INFO RpcClientBootstrap has started
+
+2019-09-22 22:38:07,849 INFO Transaction Manager Client is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:38:07,859 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:38:07,865 INFO RpcClientBootstrap has started
+
+2019-09-22 22:38:07,867 INFO Resource Manager is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:38:07,867 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:38:07,964 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:38:07,984 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bffb7e7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:38:08,030 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:38:08,378 INFO Starting ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:38:08,398 INFO Tomcat started on port(s): 9003 (http) with context path ''
+
+2019-09-22 22:38:08,402 INFO Started OrderApplication in 11.711 seconds (JVM running for 13.735)
+
+2019-09-22 22:38:08,437 INFO Tomcat initialized with port(s): 9002 (http)
+
+2019-09-22 22:38:08,455 INFO Initializing ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:38:08,473 INFO Starting service [Tomcat]
+
+2019-09-22 22:38:08,476 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:38:08,593 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:38:08,593 INFO Root WebApplicationContext: initialization completed in 2651 ms
+
+2019-09-22 22:38:09,031 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:38:09,358 INFO {dataSource-1} inited
+
+2019-09-22 22:38:09,369 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:38:09,371 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:38:09,376 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:38:09,377 INFO RM will register :jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:38:09,380 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_storage', applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:38:09,481 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:38:09,482 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:38:09,513 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:38:09,548 INFO register RM success. server version:0.7.1,channel:[id: 0x27b91098, L:/127.0.0.1:63723 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:09,548 INFO register success, cost 69 ms, version:0.7.1,role:RMROLE,channel:[id: 0x27b91098, L:/127.0.0.1:63723 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:09,649 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:38:09,650 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:38:09,690 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:38:09,754 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:38:09,758 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:38:09,907 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:38:10,057 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:38:10,734 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:38:11,352 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:38:11,397 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:38:11,590 INFO Starting ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:38:11,615 INFO Tomcat started on port(s): 9002 (http) with context path ''
+
+2019-09-22 22:38:11,619 INFO Started StorageApplication in 6.737 seconds (JVM running for 8.662)
+
+2019-09-22 22:38:12,852 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:38:12,853 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:38:12,875 INFO register success, cost 11 ms, version:0.7.1,role:TMROLE,channel:[id: 0xd9c5d61d, L:/127.0.0.1:63726 - R:/127.0.0.1:8091]
+
+2019-09-22 22:38:22,234 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:38:22,234 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:38:22,250 INFO Completed initialization in 15 ms
+
+2019-09-22 22:38:22,298 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:38:22,807 INFO load TransactionManager[null] extension by class[io.seata.tm.DefaultTransactionManager]
+
+2019-09-22 22:38:22,808 INFO TransactionManager Singleton io.seata.tm.DefaultTransactionManager@77159236
+
+2019-09-22 22:38:22,814 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:38:22,828 INFO Begin new global transaction [172.17.0.3:8091:2022782992]
+
+2019-09-22 22:38:23,318 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:38:23,327 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:38:23,341 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:38:23,344 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:38:23,678 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:38:23,679 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:38:23,696 INFO Completed initialization in 17 ms
+
+2019-09-22 22:38:23,741 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:38:24,557 INFO onMessage:xid=172.17.0.3:8091:2022782992,branchId=2022782993,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_order,applicationData=null
+
+2019-09-22 22:38:24,563 INFO Branch Rollbacking: 172.17.0.3:8091:2022782992 2022782993 jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:38:24,634 WARN Could not found property transaction.undo.data.validation, try to use default value instead.
+
+2019-09-22 22:38:24,665 INFO xid 172.17.0.3:8091:2022782992 branch 2022782993, undo_log deleted with GlobalFinished
+
+2019-09-22 22:38:24,667 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:38:24,688 INFO [172.17.0.3:8091:2022782992] rollback status:Rollbacked
+
+2019-09-22 22:38:24,723 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null] with root cause
+
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:79)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:124)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:445)
+	at com.example.order.service.impl.OrderServiceImpl.deducAccountBalance(OrderServiceImpl.java:49)
+	at com.example.order.service.impl.OrderServiceImpl.place(OrderServiceImpl.java:35)
+	at com.example.order.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$592c2beb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor$1.execute(GlobalTransactionalInterceptor.java:104)
+	at io.seata.tm.api.TransactionalTemplate.execute(TransactionalTemplate.java:64)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.handleGlobalTransaction(GlobalTransactionalInterceptor.java:101)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.invoke(GlobalTransactionalInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.order.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$51c7ede.place(<generated>)
+	at com.example.order.controller.OrderController.place(OrderController.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 22:39:16,244 INFO Begin new global transaction [172.17.0.3:8091:2022782994]
+
+2019-09-22 22:39:16,505 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:39:16,541 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:39:16,560 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:39:16,574 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:39:16,578 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:39:16,865 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:39:16,866 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:39:16,893 INFO Completed initialization in 26 ms
+
+2019-09-22 22:39:16,968 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:39:17,395 INFO HHH000397: Using ASTQueryTranslatorFactory
+
+2019-09-22 22:39:18,168 INFO onMessage:xid=172.17.0.3:8091:2022782994,branchId=2022782996,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_account,applicationData=null
+
+2019-09-22 22:39:18,174 INFO Branch Rollbacking: 172.17.0.3:8091:2022782994 2022782996 jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:39:18,321 WARN Could not found property transaction.undo.data.validation, try to use default value instead.
+
+2019-09-22 22:39:18,350 INFO xid 172.17.0.3:8091:2022782994 branch 2022782996, undo_log deleted with GlobalFinished
+
+2019-09-22 22:39:18,354 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:39:18,362 INFO onMessage:xid=172.17.0.3:8091:2022782994,branchId=2022782995,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_order,applicationData=null
+
+2019-09-22 22:39:18,363 INFO Branch Rollbacking: 172.17.0.3:8091:2022782994 2022782995 jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:39:18,389 INFO xid 172.17.0.3:8091:2022782994 branch 2022782995, undo_log deleted with GlobalFinished
+
+2019-09-22 22:39:18,391 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:39:18,407 INFO [172.17.0.3:8091:2022782994] rollback status:Rollbacked
+
+2019-09-22 22:39:18,408 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null] with root cause
+
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:79)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:124)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:445)
+	at com.example.order.service.impl.OrderServiceImpl.deducStorageQuantity(OrderServiceImpl.java:63)
+	at com.example.order.service.impl.OrderServiceImpl.place(OrderServiceImpl.java:36)
+	at com.example.order.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$592c2beb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor$1.execute(GlobalTransactionalInterceptor.java:104)
+	at io.seata.tm.api.TransactionalTemplate.execute(TransactionalTemplate.java:64)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.handleGlobalTransaction(GlobalTransactionalInterceptor.java:101)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.invoke(GlobalTransactionalInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.order.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$51c7ede.place(<generated>)
+	at com.example.order.controller.OrderController.place(OrderController.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 22:39:58,981 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:39:58,982 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:39:58,996 INFO {dataSource-1} closed
+
+2019-09-22 22:39:58,998 INFO channel inactive: [id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:39:58,999 INFO return to pool, rm channel:[id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:39:58,999 INFO channel valid false,channel:[id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:39:59,000 INFO will destroy channel:[id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:39:59,001 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:39:59,002 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xd9c5d61d, L:/127.0.0.1:63726 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:40:17,313 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:40:17,314 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:40:17,325 INFO {dataSource-1} closed
+
+2019-09-22 22:40:17,328 INFO channel inactive: [id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,328 INFO return to pool, rm channel:[id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,328 INFO channel valid false,channel:[id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,329 INFO will destroy channel:[id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,329 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:40:17,329 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xc0da5dac, L:/127.0.0.1:63700 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:40:17,371 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:40:17,371 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:40:17,384 INFO {dataSource-1} closed
+
+2019-09-22 22:40:17,386 INFO channel inactive: [id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,387 INFO return to pool, rm channel:[id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,388 INFO channel valid false,channel:[id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,388 INFO will destroy channel:[id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]
+
+2019-09-22 22:40:17,388 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:40:17,389 INFO ChannelHandlerContext(TmRpcClient#0, [id: 0xbc98b12b, L:/127.0.0.1:63715 ! R:/127.0.0.1:8091]) will closed
+
+2019-09-22 22:44:39,383 INFO Starting AccountApplication on Shines-MacBook-Pro.local with PID 21646 (/Users/shine/Projects/java/myerp/account/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:44:39,389 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:44:41,943 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:44:42,130 INFO Finished Spring Data repository scanning in 163ms. Found 1 repository interfaces.
+
+2019-09-22 22:44:43,246 INFO Bean 'config' of type [com.example.account.Config$$EnhancerBySpringCGLIB$$9a830b4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:43,645 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:44:43,670 INFO Starting OrderApplication on Shines-MacBook-Pro.local with PID 21649 (/Users/shine/Projects/java/myerp/order/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:44:43,679 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:44:43,702 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:44:44,005 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:44,008 INFO Transaction Manager Client is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:44,026 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:44:44,035 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:44,036 INFO Resource Manager is initialized. applicationId[myerp-account] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:44,037 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:44:44,636 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c075b14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:46,106 INFO Tomcat initialized with port(s): 9001 (http)
+
+2019-09-22 22:44:46,219 INFO Initializing ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:44:46,259 INFO Starting service [Tomcat]
+
+2019-09-22 22:44:46,260 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:44:46,596 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:44:46,597 INFO Root WebApplicationContext: initialization completed in 7078 ms
+
+2019-09-22 22:44:46,752 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:44:47,028 INFO Finished Spring Data repository scanning in 242ms. Found 1 repository interfaces.
+
+2019-09-22 22:44:47,168 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:44:47,850 INFO Bean 'config' of type [com.example.order.Config$$EnhancerBySpringCGLIB$$a0702c45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:47,889 INFO {dataSource-1} inited
+
+2019-09-22 22:44:47,913 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:44:47,916 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:44:47,921 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:47,922 INFO RM will register :jdbc:mysql://localhost:3306/myerp_account
+
+2019-09-22 22:44:47,928 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_account', applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:48,278 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:44:48,290 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:44:48,371 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:44:48,372 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:44:48,433 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:44:48,489 INFO register RM success. server version:0.7.1,channel:[id: 0xf9f054c5, L:/127.0.0.1:63829 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:48,490 INFO register success, cost 121 ms, version:0.7.1,role:RMROLE,channel:[id: 0xf9f054c5, L:/127.0.0.1:63829 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:48,641 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:48,648 INFO Transaction Manager Client is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:48,659 INFO Starting StorageApplication on Shines-MacBook-Pro.local with PID 21651 (/Users/shine/Projects/java/myerp/storage/target/classes started by shine in /Users/shine/Projects/java/myerp)
+
+2019-09-22 22:44:48,665 INFO No active profile set, falling back to default profiles: default
+
+2019-09-22 22:44:48,672 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:44:48,686 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:48,687 INFO Resource Manager is initialized. applicationId[myerp-order] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:48,688 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:44:48,767 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:44:48,769 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:44:48,970 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:44:49,011 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:49,024 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-account', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:49,048 INFO register success, cost 18 ms, version:0.7.1,role:TMROLE,channel:[id: 0x0b1adb98, L:/127.0.0.1:63830 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:49,064 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90b3a32d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:49,226 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:44:49,241 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:44:49,742 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:44:50,010 INFO Tomcat initialized with port(s): 9003 (http)
+
+2019-09-22 22:44:50,059 INFO Initializing ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:44:50,085 INFO Starting service [Tomcat]
+
+2019-09-22 22:44:50,086 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:44:50,124 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:44:50,313 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:44:50,314 INFO Root WebApplicationContext: initialization completed in 6420 ms
+
+2019-09-22 22:44:50,584 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-09-22 22:44:50,759 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:44:50,828 INFO Finished Spring Data repository scanning in 223ms. Found 1 repository interfaces.
+
+2019-09-22 22:44:51,380 INFO {dataSource-1} inited
+
+2019-09-22 22:44:51,404 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:44:51,408 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:44:51,416 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:51,417 INFO RM will register :jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:44:51,421 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_order', applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:51,487 INFO Bean 'config' of type [com.example.storage.Config$$EnhancerBySpringCGLIB$$405b98bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:51,633 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:44:51,634 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:44:51,676 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:44:51,713 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:44:51,728 WARN Could not found property service.disableGlobalTransaction, try to use default value instead.
+
+2019-09-22 22:44:51,738 INFO Initializing Global Transaction Clients ... 
+
+2019-09-22 22:44:51,749 INFO register RM success. server version:0.7.1,channel:[id: 0x6e2905b0, L:/127.0.0.1:63836 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:51,750 INFO register success, cost 119 ms, version:0.7.1,role:RMROLE,channel:[id: 0x6e2905b0, L:/127.0.0.1:63836 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:51,870 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:44:51,871 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:44:51,878 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:51,882 INFO Transaction Manager Client is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:51,896 INFO Async Commit Buffer Limit: 10000
+
+2019-09-22 22:44:51,906 INFO RpcClientBootstrap has started
+
+2019-09-22 22:44:51,908 INFO Resource Manager is initialized. applicationId[myerp-storage] txServiceGroup[my_erp_tx_group]
+
+2019-09-22 22:44:51,908 INFO Global Transaction Clients are initialized. 
+
+2019-09-22 22:44:51,952 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:44:52,077 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:44:52,078 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d6a6052] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-22 22:44:52,080 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:44:52,343 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:44:52,582 INFO Tomcat initialized with port(s): 9002 (http)
+
+2019-09-22 22:44:52,606 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:44:52,623 INFO Initializing ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:44:52,645 INFO Starting service [Tomcat]
+
+2019-09-22 22:44:52,645 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+2019-09-22 22:44:52,780 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:44:52,849 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-22 22:44:52,850 INFO Root WebApplicationContext: initialization completed in 3951 ms
+
+2019-09-22 22:44:52,868 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:44:53,254 WARN Could not found property support.spring.datasource.autoproxy, try to use default value instead.
+
+2019-09-22 22:44:53,289 INFO Starting ProtocolHandler ["http-nio-9001"]
+
+2019-09-22 22:44:53,322 INFO Tomcat started on port(s): 9001 (http) with context path ''
+
+2019-09-22 22:44:53,327 INFO Started AccountApplication in 15.022 seconds (JVM running for 16.995)
+
+2019-09-22 22:44:53,649 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:53,651 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-order', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:53,673 INFO register success, cost 15 ms, version:0.7.1,role:TMROLE,channel:[id: 0x72d5b471, L:/127.0.0.1:63845 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:53,685 INFO {dataSource-1} inited
+
+2019-09-22 22:44:53,704 WARN Could not found property client.table.meta.check.enable, try to use default value instead.
+
+2019-09-22 22:44:53,707 INFO register to RM resourceId:jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:44:53,712 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:53,713 INFO RM will register :jdbc:mysql://localhost:3306/myerp_storage
+
+2019-09-22 22:44:53,717 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/myerp_storage', applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:53,920 WARN Could not found property transport.serialization, try to use default value instead.
+
+2019-09-22 22:44:53,921 WARN Could not found property transport.compressor, try to use default value instead.
+
+2019-09-22 22:44:53,939 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:44:53,962 INFO load Codec[SEATA] extension by class[io.seata.codec.seata.SeataCodec]
+
+2019-09-22 22:44:54,005 INFO register RM success. server version:0.7.1,channel:[id: 0xec09f8e8, L:/127.0.0.1:63847 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:54,006 INFO register success, cost 88 ms, version:0.7.1,role:RMROLE,channel:[id: 0xec09f8e8, L:/127.0.0.1:63847 - R:/127.0.0.1:8091]
+
+2019-09-22 22:44:54,107 WARN Could not found property client.report.retry.count, try to use default value instead.
+
+2019-09-22 22:44:54,108 WARN Could not found property client.lock.retry.policy.branch-rollback-on-conflict, try to use default value instead.
+
+2019-09-22 22:44:54,167 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-09-22 22:44:54,244 INFO HHH000412: Hibernate Core {5.3.11.Final}
+
+2019-09-22 22:44:54,247 INFO HHH000206: hibernate.properties not found
+
+2019-09-22 22:44:54,393 INFO Bean[com.example.order.service.impl.OrderServiceImpl] with name [orderServiceImpl] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+
+2019-09-22 22:44:54,447 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-09-22 22:44:54,724 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+
+2019-09-22 22:44:54,819 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:44:54,879 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:44:55,131 INFO Starting ProtocolHandler ["http-nio-9003"]
+
+2019-09-22 22:44:55,157 INFO Tomcat started on port(s): 9003 (http) with context path ''
+
+2019-09-22 22:44:55,165 INFO Started OrderApplication in 12.732 seconds (JVM running for 15.182)
+
+2019-09-22 22:44:55,509 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-09-22 22:44:56,210 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-22 22:44:56,253 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-09-22 22:44:56,438 INFO Starting ProtocolHandler ["http-nio-9002"]
+
+2019-09-22 22:44:56,457 INFO Tomcat started on port(s): 9002 (http) with context path ''
+
+2019-09-22 22:44:56,464 INFO Started StorageApplication in 8.975 seconds (JVM running for 11.29)
+
+2019-09-22 22:44:56,883 INFO will connect to 127.0.0.1:8091
+
+2019-09-22 22:44:56,884 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='myerp-storage', transactionServiceGroup='my_erp_tx_group'} >
+
+2019-09-22 22:44:56,900 INFO register success, cost 12 ms, version:0.7.1,role:TMROLE,channel:[id: 0xaaa76b2b, L:/127.0.0.1:63858 - R:/127.0.0.1:8091]
+
+2019-09-22 22:45:38,483 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:45:38,483 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:45:38,504 INFO Completed initialization in 20 ms
+
+2019-09-22 22:45:38,557 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:45:39,117 INFO load TransactionManager[null] extension by class[io.seata.tm.DefaultTransactionManager]
+
+2019-09-22 22:45:39,118 INFO TransactionManager Singleton io.seata.tm.DefaultTransactionManager@136e6239
+
+2019-09-22 22:45:39,133 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:45:39,152 INFO Begin new global transaction [172.17.0.3:8091:2022782997]
+
+2019-09-22 22:45:39,640 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:45:39,651 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:45:39,668 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:45:39,669 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:45:40,022 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:45:40,023 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:45:40,047 INFO Completed initialization in 23 ms
+
+2019-09-22 22:45:40,096 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:45:41,000 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:45:41,022 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:45:41,034 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:45:41,066 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:45:41,070 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:45:41,398 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-22 22:45:41,401 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-22 22:45:41,415 INFO Completed initialization in 14 ms
+
+2019-09-22 22:45:41,470 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-09-22 22:45:41,853 INFO HHH000397: Using ASTQueryTranslatorFactory
+
+2019-09-22 22:45:42,548 INFO load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
+
+2019-09-22 22:45:42,573 WARN Could not found property transaction.undo.log.table, try to use default value instead.
+
+2019-09-22 22:45:42,580 WARN Could not found property transaction.undo.log.serialization, try to use default value instead.
+
+2019-09-22 22:45:42,587 WARN load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/RuntimeEnv
+
+2019-09-22 22:45:42,588 INFO load UndoLogParser[jackson] extension by class[io.seata.rm.datasource.undo.parser.JacksonUndoLogParser]
+
+2019-09-22 22:45:42,819 INFO [172.17.0.3:8091:2022782997] commit status:Committed
+
+2019-09-22 22:46:06,473 INFO Begin new global transaction [172.17.0.3:8091:2022783001]
+
+2019-09-22 22:46:06,576 INFO onMessage:xid=172.17.0.3:8091:2022783001,branchId=2022783002,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_order,applicationData=null
+
+2019-09-22 22:46:06,583 INFO Branch Rollbacking: 172.17.0.3:8091:2022783001 2022783002 jdbc:mysql://localhost:3306/myerp_order
+
+2019-09-22 22:46:06,668 WARN Could not found property transaction.undo.data.validation, try to use default value instead.
+
+2019-09-22 22:46:06,779 INFO xid 172.17.0.3:8091:2022783001 branch 2022783002, undo_log deleted with GlobalFinished
+
+2019-09-22 22:46:06,782 INFO Branch Rollbacked result: PhaseTwo_Rollbacked
+
+2019-09-22 22:46:06,795 INFO [172.17.0.3:8091:2022783001] rollback status:Rollbacked
+
+2019-09-22 22:46:06,837 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null] with root cause
+
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 null
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:79)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:124)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:445)
+	at com.example.order.service.impl.OrderServiceImpl.deducAccountBalance(OrderServiceImpl.java:46)
+	at com.example.order.service.impl.OrderServiceImpl.place(OrderServiceImpl.java:33)
+	at com.example.order.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$592c2beb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor$1.execute(GlobalTransactionalInterceptor.java:104)
+	at io.seata.tm.api.TransactionalTemplate.execute(TransactionalTemplate.java:64)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.handleGlobalTransaction(GlobalTransactionalInterceptor.java:101)
+	at io.seata.spring.annotation.GlobalTransactionalInterceptor.invoke(GlobalTransactionalInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.order.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$3042d57e.place(<generated>)
+	at com.example.order.controller.OrderController.place(OrderController.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 22:46:10,481 INFO onMessage:xid=172.17.0.3:8091:2022782997,branchId=2022782998,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_order,applicationData=null
+
+2019-09-22 22:46:10,482 INFO Branch committing: 172.17.0.3:8091:2022782997 2022782998 jdbc:mysql://localhost:3306/myerp_order null
+
+2019-09-22 22:46:10,483 INFO Branch commit result: PhaseTwo_Committed
+
+2019-09-22 22:46:10,491 INFO onMessage:xid=172.17.0.3:8091:2022782997,branchId=2022782999,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_account,applicationData=null
+
+2019-09-22 22:46:10,494 INFO Branch committing: 172.17.0.3:8091:2022782997 2022782999 jdbc:mysql://localhost:3306/myerp_account null
+
+2019-09-22 22:46:10,494 INFO Branch commit result: PhaseTwo_Committed
+
+2019-09-22 22:46:10,506 INFO onMessage:xid=172.17.0.3:8091:2022782997,branchId=2022783000,branchType=AT,resourceId=jdbc:mysql://localhost:3306/myerp_storage,applicationData=null
+
+2019-09-22 22:46:10,507 INFO Branch committing: 172.17.0.3:8091:2022782997 2022783000 jdbc:mysql://localhost:3306/myerp_storage null
+
+2019-09-22 22:46:10,508 INFO Branch commit result: PhaseTwo_Committed
+
